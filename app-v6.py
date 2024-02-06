@@ -88,4 +88,4 @@ def generate_frames_generator():
 
 if __name__ == '__main__':
     generate_frames_thread()
-    app.run(host="0.0.0.0", port=5000, threaded=True)
+    app.run(host="0.0.0.0", port=5000, threaded=True,debug=True)
