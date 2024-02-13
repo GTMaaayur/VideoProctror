@@ -1,4 +1,13 @@
-company name: upGrad
-Malpractise: not found
-Exam date: 2022-08-25
-type of violation: earbuds violation: 0%, mobile phone violation: 0%, Camera violation: 0%, Gaze violation: 45%, Headpose violation: 30%, talking violation or multiple person violation: 0%
+company name: XYZ
+
+Malpractice: found
+
+Exam date: 2023-03-08
+
+Type of violation: 
+ - earbuds violation: 75%
+ - camera violation: 80%
+ - gaze violation: 60%
+ - head pose violation: 70%
+ - talking to someone violation: 90%
+ - multiple person violation: 95%

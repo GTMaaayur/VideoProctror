@@ -93,7 +93,7 @@ def process_frame(frame):
                                 6. Should not talk to someone and no multiple person detected
 
                                 Count the number of times each violation occurs. 
-                                Answer BY percentage violation by each above types:
+                                Answer BY percentage violation by each above types and count number of times occurance of these types:
                                 earbuds:
                                 mobile phone:
                                 camera:
@@ -187,7 +187,7 @@ def generate_malpractice_report():
         concatenated_text = f'""""""\n{concatenated_text}\n""""""'
         prompt = """You are a report generation assistant. Write a report  determining if the candidate has committed malpractice throughout the exam. Here are the logs:
         Guidelines:keep some Standard Tolarance value as 20% max if exceeded make report as malpractise found
-                                RETURN IN THIS FORM ONLY(explicitly look for moblie phone, camera,earphones or earbuds  ):
+                                RETURN IN THIS FORM ONLY:
                                         company name:
                                         Malpractise:found/not found (based on toleration value)
                                         Exam date:

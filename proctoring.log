@@ -12656,3 +12656,229 @@ INFO:sqlalchemy.engine.Engine:SELECT responses.response_text AS responses_respon
 FROM responses
 INFO:sqlalchemy.engine.Engine:[generated in 0.00075s] ()
 INFO:werkzeug:127.0.0.1 - - [13/Feb/2024 11:33:26] "GET /generate_report HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("responses")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("responses")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 717-935-739
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00107s] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:32:29.731294')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00130s] (' ```\n{\n  "earbuds": "0.0%",\n  "mobile_phone": "0.0%",\n  "camera": "0.0%",\n  "gaze_violation": "0.0%",\n  "multiple_persons": "0.0%",\n  "talking_to_someone": "0.0%"\n}\n```', '2024-02-13 13:32:30.926301')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 5.322s ago] (' ```\n{\n  "earbuds": 0,\n  "mobile_phone": 0,\n  "camera": 0,\n  "gaze_violation": 0,\n  "multiple_persons": 0,\n  "talking_to_someone": 0\n}\n```', '2024-02-13 13:32:35.052807')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 5.538s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:32:36.463635')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 10.41s ago] (' ```\n{\n  "earbuds": "10%",\n  "mobile_phone": "0%",\n  "camera": "0%",\n  "gaze_violation": "0%",\n  "multiple_persons": "0%",\n  "talking_to_someone": "0%"\n}\n```', '2024-02-13 13:32:40.142258')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 11.09s ago] (' ```\n{\n  "violations": {\n    "earbuds": 0.0,\n    "mobile_phone": 0.0,\n    "camera": 0.0,\n    "gaze_violation": 0.0,\n    "multiple_persons": 0.0,\n    "talking_to_someone": 0.0\n  }\n}\n```', '2024-02-13 13:32:42.016980')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 15.09s ago] (' ```\nearbuds: 0%\nmobile phone: 100%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:32:44.818651')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 16.58s ago] (' ```\n{\n  "earbuds": 0,\n  "mobile_phone": 0,\n  "camera": 0,\n  "gaze_violation": 10,\n  "multiple_persons": 0,\n  "talking_to_someone": 0\n}\n```', '2024-02-13 13:32:47.506295')
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Sudden darkness detected
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 19.75s ago] (' ```\nearbuds: 0%\nmobile phone: 0%\ncamera: 0%\ngaze violation: 100%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:32:49.482336')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 22.38s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:32:53.308590')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 24.37s ago] (' ```\nearbuds: 0%\nmobile phone: 100%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:32:54.102613')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 28.96s ago] (' ```\nearbuds: 0%\nmobile phone: 100%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:32:58.687769')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 28.01s ago] (' ```\n{\n  "earbuds": "0.0%",\n  "mobile_phone": "0.0%",\n  "camera": "0.0%",\n  "gaze_violation": "0.0%",\n  "multiple_persons": "0.0%",\n  "talking_to_someone": "0.0%"\n}\n```', '2024-02-13 13:32:58.936297')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 34.08s ago] (' ```\nearbuds: 0%\nmobile phone: 100%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:33:03.808366')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 33.57s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:33:04.497421')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 39.79s ago] (' ```\n{\n  "earbuds": 0,\n  "mobile_phone": 0,\n  "camera": 0,\n  "gaze_violation": 0,\n  "multiple_persons": 0,\n  "talking_to_someone": 0\n}\n```', '2024-02-13 13:33:09.520553')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 39s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:33:09.930350')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 44.61s ago] (' ```\n{\n  "earbuds": 0,\n  "mobile_phone": 100,\n  "camera": 0,\n  "gaze_violation": 100,\n  "multiple_persons": 0,\n  "talking_to_someone": 0\n}\n```', '2024-02-13 13:33:14.343014')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 44.81s ago] (' ```\n{\n  "earbuds": 0,\n  "mobile_phone": 0,\n  "camera": 0,\n  "gaze_violation": 2,\n  "multiple_persons": 0,\n  "talking_to_someone": 0\n}\n```', '2024-02-13 13:33:15.731819')
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Sudden darkness detected
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 50.32s ago] (' ```\nearbuds: 0%\nmobile phone: 100%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone: 0%\n```', '2024-02-13 13:33:20.055693')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 50.43s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 0.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:33:21.353050')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 55.42s ago] (' ```\n{\n  "earbuds": 0.0,\n  "mobile_phone": 100.0,\n  "camera": 0.0,\n  "gaze_violation": 0.0,\n  "multiple_persons": 0.0,\n  "talking_to_someone": 0.0\n}\n```', '2024-02-13 13:33:25.153098')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 57.14s ago] (' ```\n{\n  "earbuds": "0.0%",\n  "mobile_phone": "0.0%",\n  "camera": "0.0%",\n  "gaze_violation": "0.0%",\n  "multiple_persons": "0.0%",\n  "talking_to_someone": "0.0%"\n}\n```', '2024-02-13 13:33:28.069091')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT responses.response_text AS responses_response_text 
+FROM responses
+INFO:sqlalchemy.engine.Engine:[generated in 0.00083s] ()
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2024 13:34:14] "GET /generate_report HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("responses")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("responses")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 717-935-739
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT responses.response_text AS responses_response_text 
+FROM responses
+INFO:sqlalchemy.engine.Engine:[generated in 0.00170s] ()
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00075s] (' Percentage violation by each above types:\nearbuds: 20%\nmobile phone: 10%\ncamera: 5%\ngaze violation: 30%\nmultiple persons: 15%\ntalking to someo ... (16 characters truncated) ...  number of times occurrence of these types:\nearbuds: 10\nmobile phone: 5\ncamera: 2\ngaze violation: 15\nmultiple persons: 7\ntalking to someone: 10', '2024-02-13 13:38:43.463490')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00086s] (' ```\n{\n  "earbuds": {\n    "violation_percentage": 0.0,\n    "count": 0\n  },\n  "mobile_phone": {\n    "violation_percentage": 0.0,\n    "count":  ... (179 characters truncated) ... : {\n    "violation_percentage": 0.0,\n    "count": 0\n  },\n  "talking_to_someone": {\n    "violation_percentage": 0.0,\n    "count": 0\n  }\n}\n```', '2024-02-13 13:38:43.555977')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2024 13:38:44] "GET /generate_report HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 5.585s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 0%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 0%\n- multiple persons: 0%\n- ta ... (44 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 0\n- mobile phone: 0\n- camera: 0\n- gaze violation: 0\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:38:49.140586')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 5.917s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 10%\n- mobile phone: 5%\n- camera: 2%\n- gaze violation: 15%\n- multiple persons: 8%\n-  ... (49 characters truncated) ... s occurrence of these types:**\n\n- earbuds: 5\n- mobile phone: 8\n- camera: 2\n- gaze violation: 10\n- multiple persons: 4\n- talking to someone: 15', '2024-02-13 13:38:49.379956')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 10.7s ago] (' Percentage violation by each above types:\nearbuds: 0%\nmobile phone: 0%\ncamera: 0%\ngaze violation: 0%\nmultiple persons: 0%\ntalking to someone:  ... (8 characters truncated) ... unt number of times occurrence of these types:\nearbuds: 0\nmobile phone: 0\ncamera: 0\ngaze violation: 0\nmultiple persons: 0\ntalking to someone: 0', '2024-02-13 13:38:54.256964')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 12.2s ago] (' Percentage violation by each above types:\n- earbuds: 10%\n- mobile phone: 5%\n- camera: 2%\n- gaze violation: 15%\n- multiple persons: 8%\n- talkin ... (36 characters truncated) ...  times occurrence of these types:\n- earbuds: 5\n- mobile phone: 3\n- camera: 1\n- gaze violation: 10\n- multiple persons: 2\n- talking to someone: 4', '2024-02-13 13:38:55.666701')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 16.33s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 0%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 0%\n- multiple persons: 0%\n- ta ... (44 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 0\n- mobile phone: 0\n- camera: 0\n- gaze violation: 0\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:38:59.889136')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 19.09s ago] (' **Percentage violation by each type:**\n\n| Violation Type | Percentage Violation |\n| ------- | -------------- |\n| earbuds | 0.5% |\n| mobile phon ... (206 characters truncated) ... -------------- |\n| earbuds | 1 |\n| mobile phone | 1 |\n| camera | 0 |\n| gaze violation | 2 |\n| multiple persons | 0 |\n| talking to someone | 0 |', '2024-02-13 13:39:02.549933')
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Sudden darkness detected
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 21.29s ago] (' ```\nViolation Report\n\nearbuds: 0% (0 times)\nmobile phone: 0% (0 times)\ncamera: 0% (0 times)\ngaze violation: 0% (0 times)\nmultiple persons: 0% (0 times)\ntalking to someone: 0% (0 times)\n```', '2024-02-13 13:39:04.840806')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 25.4s ago] (' **Percentage violation by each above types:**\n\n| Violation Type | Percentage Violation |\n|----------------|----------------------|\n| earbuds | 0 ... (230 characters truncated) ... -----|-------|\n| earbuds | 5 |\n| mobile phone | 15 |\n| camera | 5 |\n| gaze violation | 50 |\n| multiple persons | 0 |\n| talking to someone | 0 |', '2024-02-13 13:39:08.861247')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 26.82s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 50%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 10%\n- multiple persons: 0%\n-  ... (46 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 1\n- mobile phone: 0\n- camera: 0\n- gaze violation: 2\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:39:10.378486')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 31.35s ago] (' Percentage violation by each above types:\n1. earbuds: 10%\n2. mobile phone: 5%\n3. camera: 0%\n4. gaze violation: 15%\n5. multiple persons: 0%\n6.  ... (47 characters truncated) ... s occurrence of these types:\n1. earbuds: 2\n2. mobile phone: 1\n3. camera: 0\n4. gaze violation: 3\n5. multiple persons: 0\n6. talking to someone: 2', '2024-02-13 13:39:14.817762')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 31.67s ago] (' ```\nViolation Report\n\nearbuds: 0% (0 times)\nmobile phone: 0% (0 times)\ncamera: 0% (0 times)\ngaze violation: 0% (0 times)\nmultiple persons: 0% (0 times)\ntalking to someone: 0% (0 times)\n```', '2024-02-13 13:39:15.222667')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 37.21s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 0%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 0%\n- multiple persons: 0%\n- ta ... (44 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 0\n- mobile phone: 0\n- camera: 0\n- gaze violation: 0\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:39:20.676955')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 37.31s ago] (' **Percentage violation by each type:**\n\n- earbuds: 0%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 0%\n- multiple persons: 0%\n- talking t ... (37 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 0\n- mobile phone: 0\n- camera: 0\n- gaze violation: 0\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:39:20.861661')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 42.65s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 0%\n- mobile phone: 0%\n- camera: 0%\n- gaze violation: 0%\n- multiple persons: 0%\n- ta ... (44 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 0\n- mobile phone: 0\n- camera: 0\n- gaze violation: 0\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:39:26.205971')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 43.06s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 2%\n- mobile phone: 1%\n- camera: 0%\n- gaze violation: 5%\n- multiple persons: 0%\n- ta ... (44 characters truncated) ... mes occurrence of these types:**\n\n- earbuds: 2\n- mobile phone: 1\n- camera: 0\n- gaze violation: 5\n- multiple persons: 0\n- talking to someone: 0', '2024-02-13 13:39:26.522926')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 49.22s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 20%\n- mobile phone: 10%\n- camera: 5%\n- gaze violation: 30%\n- multiple persons: 15%\n ... (52 characters truncated) ...  occurrence of these types:**\n\n- earbuds: 10\n- mobile phone: 5\n- camera: 2\n- gaze violation: 15\n- multiple persons: 8\n- talking to someone: 12', '2024-02-13 13:39:32.684883')
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 49.13s ago] (' ```\n{\n  "violations": {\n    "earbuds": 1,\n    "mobile_phone": 0,\n    "camera": 0,\n    "gaze_violation": 0,\n    "multiple_persons": 0,\n    "t ... (67 characters truncated) ... buds": 100,\n    "mobile_phone": 0,\n    "camera": 0,\n    "gaze_violation": 0,\n    "multiple_persons": 0,\n    "talking_to_someone": 0\n  }\n}\n```', '2024-02-13 13:39:32.687213')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Sudden darkness detected
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 55.06s ago] (' Percentage violation by each above types:\nearbuds: 20%\nmobile phone: 0%\ncamera: 0%\ngaze violation: 10%\nmultiple persons: 0%\ntalking to someone ... (10 characters truncated) ... unt number of times occurrence of these types:\nearbuds: 2\nmobile phone: 0\ncamera: 0\ngaze violation: 1\nmultiple persons: 0\ntalking to someone: 0', '2024-02-13 13:39:38.618324')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:INSERT INTO responses (response_text, timestamp) VALUES (?, ?)
+INFO:sqlalchemy.engine.Engine:[cached since 55.19s ago] (' **Percentage violation by each above types:**\n\n- earbuds: 20%\n- mobile phone: 10%\n- camera: 5%\n- gaze violation: 30%\n- multiple persons: 15%\n ... (52 characters truncated) ...  occurrence of these types:**\n\n- earbuds: 10\n- mobile phone: 5\n- camera: 2\n- gaze violation: 15\n- multiple persons: 8\n- talking to someone: 12', '2024-02-13 13:39:38.652251')
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT responses.response_text AS responses_response_text 
+FROM responses
+INFO:sqlalchemy.engine.Engine:[cached since 84.02s ago] ()
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2024 13:40:19] "GET /generate_report HTTP/1.1" 200 -
